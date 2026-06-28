@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 :root{
-    --color-pink: #feecea;
+    --color-pink: #ffc0cb;
     --color-white: #fff;
     --color-black: #333;
     --color-text-pink: #FF7882;
@@ -29,7 +29,7 @@ body {
 #wrapper{
     position: relative;
     background-color: transparent;
-    background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255,1) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1) 76%, transparent 77%, transparent);
+    background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1[...]
     height:100%;
     background-size:80px 80px;
     overflow: hidden;
@@ -998,28 +998,3 @@ body {
         transform: rotate(-5deg);
     }
     100%{
-        opacity: 1;
-        transform: rotate(0deg);
-    }
-}
-@keyframes cute4{
-    0%{
-        left: 20px;
-    }
-    100%{
-        left: 100px;
-    }
-}
-.boxMail .boxMail-container .card2 .card2-content .imageCute2 img{
-    width: 40px;
-}
-.boxMail .fa-xmark{
-    position: fixed;
-    top: 0;
-    right: 0;
-    font-size: 30px;
-    padding: 10px 25px;
-    cursor: pointer;
-    color: white;
-    z-index: 10000000000000000;
-}
